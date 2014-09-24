@@ -1,1 +1,139 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container
+{
+    margin: 0 auto;
+    width: 600px;
+    background-color: #fff;
+    color: #797066;
+    line-height: 20px;
+}
+
+#content
+{
+    margin: 0 auto;
+    font-family: verdana;
+    background-color: #EAE7D2;
+    border: 1px solid #8A8A5C;
+    width: 600px;
+    margin-top: -4px;
+    padding-bottom: 20px;
+}
+
+#maincontent
+{
+    float:left;
+    width: 300px;
+    padding: 0 5px 0 10px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#subcontent
+{
+    float: right;
+    width: 270px;
+    border-left: 1px dashed #ccc;
+    font-size: 11px;
+    padding: 0 2px 0 10px;
+    margin-top: 20px;
+}
+
+#bottomcontent
+{
+
+   font-style: Italic;
+   width: 600px;
+   font-size: 12px;
+   margin: 440px 0 10px 10px;
+   bottom: 0;
+}
+
+h1
+{
+    font-family: "Times new roman";
+    color: #797066;
+}
+
+
+h2
+{
+    font-family: "Times new roman";
+    font-size: 16px;
+    color: #797066;
+}
+
+a:link { color: #000; text-decoration: underline; }
+a:visited { color: #000; text-decoration: none; }
+a:hover { color: #999; }
+a:active { text-decoration: underline;}
+
+#menu {
+
+}
+
+/* Listelementen <LI> med knapparna */
+#menu li {
+    display: inline;
+    list-style: none;
+    margin: 0 auto;
+}
+
+#menu li a {
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 13px;
+    background-color: #797066;
+    color: #000;
+}
+
+#menu ul {
+width: 600px;
+text-align: center;
+padding: 10px 0 0px 0;
+border-radius: 5px;
+border: 1px solid rgba(105,181,50,1);
+    background-color: #51473D;
+    height: 25px;
+}
+
+#menu li a:hover {
+cursor: pointer; 
+background: #9C9084;
+}
+#menu a:link, #menu a:visited { 
+color: rgba(255,255,255,1);
+text-decoration: none;
+}
+
+#menu li.active a 
+{ 
+    background-color: #EAE7D2; 
+    
+} 
+
+img
+{
+    float: left;
+    padding-right: 10px;
+}
+ul
+{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+#topbar
+{
+    height: 20px;
+    position: relative;
+    text-align: right;
+    font-style: italic;
+    color: #fff;
+    background-color: #51473D;
+    width: 595px;
+    padding-right: 5px;
+    margin-bottom:40px;
+}
