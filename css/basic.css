@@ -16,7 +16,6 @@
     background-color: #EAE7D2;
     border: 1px solid #8A8A5C;
     width: 600px;
-    margin-top: -4px;
     padding-bottom: 20px;
 }
 
@@ -53,6 +52,7 @@ h1
 {
     font-family: "Times new roman";
     color: #797066;
+    font-weight:normal;
 }
 
 
@@ -61,6 +61,7 @@ h2
     font-family: "Times new roman";
     font-size: 16px;
     color: #797066;
+    font-weight:normal;
 }
 
 a:link { color: #000; text-decoration: underline; }
@@ -69,6 +70,8 @@ a:hover { color: #999; }
 a:active { text-decoration: underline;}
 
 #menu {
+    
+    margin-top: -30px;
 
 }
 
@@ -80,22 +83,19 @@ a:active { text-decoration: underline;}
 }
 
 #menu li a {
-    padding: 5px;
+    padding: 10px;
     text-align: center;
-    font-family: Verdana;
-    font-size: 13px;
+    font-family: "times new roman";
+    font-size: 14px;
     background-color: #797066;
     color: #000;
 }
 
 #menu ul {
-width: 600px;
-text-align: center;
-padding: 10px 0 0px 0;
-border-radius: 5px;
-border: 1px solid rgba(105,181,50,1);
+    width: 592px;
+    padding: 10px 0 0 10px;
     background-color: #51473D;
-    height: 25px;
+    height: 27px;
 }
 
 #menu li a:hover {
@@ -103,13 +103,14 @@ cursor: pointer;
 background: #9C9084;
 }
 #menu a:link, #menu a:visited { 
-color: rgba(255,255,255,1);
+color: #ccc;
 text-decoration: none;
 }
 
 #menu li.active a 
 { 
-    background-color: #EAE7D2; 
+    background-color: #EAE7D2;
+    color: #808080;
     
 } 
 
@@ -127,13 +128,16 @@ ul
 
 #topbar
 {
-    height: 20px;
+    height: 227px;
     position: relative;
     text-align: right;
     font-style: italic;
-    color: #fff;
+    color: #CCCCCC;
+    font-size: 11px;
     background-color: #51473D;
-    width: 595px;
+    width: 597px;
     padding-right: 5px;
-    margin-bottom:40px;
+    background-image: url(pics/coffey.jpg);
+    background-repeat: no-repeat;
+    background-position: right 20px;
 }
